@@ -1,9 +1,7 @@
 module Main exposing (main)
 
 import Browser
-import Browser.Navigation
 import Element exposing (..)
-import Url
 
 
 type alias Flags =
