@@ -23,29 +23,6 @@ type Msg
     = NoOp
 
 
-subscriptions : Model -> Sub Msg
-subscriptions _ =
-    Sub.none
-
-
-update : Msg -> Model -> ( Model, Cmd Msg )
-update message model =
-    case message of
-        NoOp ->
-            ( model, Cmd.none )
-
-
-view : Model -> Browser.Document Msg
-view _ =
-    { title = "MBTA"
-    , body =
-        [ layout
-            []
-            (text "Hello World!")
-        ]
-    }
-
-
 init : Flags -> Url.Url -> Browser.Navigation.Key -> ( Model, Cmd Msg )
 init _ _ _ =
     ( initialModel, Cmd.none )
@@ -61,3 +38,26 @@ main =
         , onUrlChange = \_ -> NoOp
         , onUrlRequest = \_ -> NoOp
         }
+
+
+view : Model -> Browser.Document Msg
+view _ =
+    { title = "MBTA"
+    , body =
+        [ layout
+            []
+            (text "Hello World!")
+        ]
+    }
+
+
+subscriptions : Model -> Sub Msg
+subscriptions _ =
+    Sub.none
+
+
+update : Msg -> Model -> ( Model, Cmd Msg )
+update message model =
+    case message of
+        NoOp ->
+            ( model, Cmd.none )
