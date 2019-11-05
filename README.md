@@ -94,3 +94,11 @@ colorToRgbaAttr color =
     in
     Html.Attributes.style "color" ("rgba(" ++ rgb ++ "," ++ String.fromFloat alpha ++ ")")
 ```
+
+## Multiple focus bug
+
+wrap each button in an `Element.el`
+
+https://ellie-app.com/5NtSNBJ4bzFa1
+
+https://github.com/mdgriffith/elm-ui/issues/47#issuecomment-501270001
