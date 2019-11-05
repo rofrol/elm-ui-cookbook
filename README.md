@@ -34,7 +34,7 @@ https://elmlang.slack.com #elm-ui
 
 ## Break long text without spaces
 
-```
+```elm
 row [ width fill ]
   [ paragraph
     [ Font.color model.style.color
