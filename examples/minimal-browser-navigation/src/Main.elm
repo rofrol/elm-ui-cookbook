@@ -2,7 +2,7 @@ module Main exposing (main)
 
 import Browser
 import Browser.Navigation
-import Element
+import Element exposing (..)
 import Url
 
 
@@ -39,9 +39,9 @@ view : Model -> Browser.Document Msg
 view _ =
     { title = "MBTA"
     , body =
-        [ Element.layout
+        [ layout
             []
-            (Element.text "Hello World!")
+            (text "Hello World!")
         ]
     }
 
