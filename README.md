@@ -7,7 +7,8 @@ PRs welcomed.
 ## Examples
 
 - [examples](/examples) directory.
-- https://github.com/rofrol/elm-mpv-webui
+- web interface to control mpv https://github.com/rofrol/elm-mpv-webui
+- slider https://github.com/rofrol/elm-mpv-webui/blob/master/webui-page/src/Slider.elm
 
 ## Centralize Input.text contents
 
