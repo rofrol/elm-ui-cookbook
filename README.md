@@ -20,3 +20,20 @@ mgriffithbulb 4:58 AM
 First suggestion is to take all values and put them in one file (colors, spacing/padding values, font sizes and font families). I usually call this file UI After that, if you find a reusable part of a view, I’d put it in it’s own sub module. So, buttons go in UI.Button. Though it’s also fine to have big files.
 
 https://elmlang.slack.com #elm-ui
+
+## Break long text without spaces
+
+```
+row [ width fill ]
+  [ paragraph
+    [ Font.color model.style.color
+    , Font.size 40
+	, Html.Attributes.style "word-break" "break-all" |> htmlAttribute
+    ]
+    [ text model.status.filename ]
+  ]
+```
+
+- https://stackoverflow.com/questions/36150458/flex-item-overflows-container-due-to-long-word-even-after-using-word-wrap/36150638#36150638
+
+`'overflow-wrap: break-word'` will not work when `paragraph` inside `row` so this solution https://stackoverflow.com/questions/3058866/how-to-force-a-line-break-in-a-long-word-in-a-div/3059128#3059128 is bad for flexbox.
