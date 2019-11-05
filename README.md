@@ -51,3 +51,32 @@ Examples in source code https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Elem
 ## Mouse click coordinates
 
 Examples in source code but on exported https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Element/Events.elm#L115
+
+## colorToRgbaString
+
+```elm
+colorToRgbaString color =
+    let
+        floatTo256 f =
+            if f >= 1 then
+                255
+
+            else
+                floor (f * 256)
+
+        rgba =
+            Element.toRgb color
+
+        floatToString f =
+            String.pad 2 '0' (String.fromInt (floatTo256 f))
+    in
+    "rgba("
+        ++ floatToString rgba.red
+        ++ ", "
+        ++ floatToString rgba.green
+        ++ ", "
+        ++ floatToString rgba.blue
+        ++ ", "
+        ++ floatToString rgba.alpha
+        ++ ")"
+```
