@@ -43,3 +43,7 @@ row [ width fill ]
 You can't
 
 https://stackoverflow.com/questions/32802202/how-to-center-a-flex-container-but-left-align-flex-items/32811002#32811002
+
+## Custom events
+
+Examples in source code https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Element/Events.elm#L177 but are not exported
