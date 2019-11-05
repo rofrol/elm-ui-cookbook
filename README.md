@@ -102,3 +102,13 @@ wrap each button in an `Element.el`
 https://ellie-app.com/5NtSNBJ4bzFa1
 
 https://github.com/mdgriffith/elm-ui/issues/47#issuecomment-501270001
+
+## em values
+
+Sophie   [Yesterday at 10:24 PM]
+Is there a way to specify `em` values in `elm-ui`?
+
+jhbrown   [12 hours ago]
+There is not.  Just px and percents.
+
+https://elmlang.slack.com #elm-ui
