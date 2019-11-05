@@ -6,7 +6,8 @@ PRs welcomed.
 
 ## Examples
 
-Look at [examples](/examples) directory.
+- [examples](/examples) directory.
+- https://github.com/rofrol/elm-mpv-webui
 
 ## Centralize Input.text contents
 
