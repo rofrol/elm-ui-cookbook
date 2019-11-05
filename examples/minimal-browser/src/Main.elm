@@ -40,7 +40,7 @@ main =
 
 view : Model -> Browser.Document Msg
 view _ =
-    { title = "MBTA"
+    { title = "Example"
     , body =
         [ layout
             []
