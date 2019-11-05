@@ -4,6 +4,10 @@ This repo aims to gather knowledge from https://elmlang.slack.com #elm-ui or els
 
 PRs welcomed.
 
+## Examples
+
+Look at [examples](/examples) directory.
+
 ## Centralize Input.text contents
 
 mthiems 2:33 AM
