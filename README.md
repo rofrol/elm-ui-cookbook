@@ -37,3 +37,9 @@ row [ width fill ]
 - https://stackoverflow.com/questions/36150458/flex-item-overflows-container-due-to-long-word-even-after-using-word-wrap/36150638#36150638
 
 `'overflow-wrap: break-word'` will not work when `paragraph` inside `row` so this solution https://stackoverflow.com/questions/3058866/how-to-force-a-line-break-in-a-long-word-in-a-div/3059128#3059128 is bad for flexbox.
+
+## Center wrapped flexbox
+
+You can't
+
+https://stackoverflow.com/questions/32802202/how-to-center-a-flex-container-but-left-align-flex-items/32811002#32811002
