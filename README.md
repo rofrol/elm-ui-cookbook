@@ -80,3 +80,17 @@ colorToRgbaString color =
         ++ floatToString rgba.alpha
         ++ ")"
 ```
+
+## colorToRgbaAttr
+
+```elm
+colorToRgbaAttr color =
+    let
+        { red, green, blue, alpha } =
+            toRgb color
+
+        rgb =
+            [ red, green, blue ] |> List.map ((*) 255 >> String.fromFloat) |> List.intersperse ", " |> List.foldl (++) ""
+    in
+    Html.Attributes.style "color" ("rgba(" ++ rgb ++ "," ++ String.fromFloat alpha ++ ")")
+```
