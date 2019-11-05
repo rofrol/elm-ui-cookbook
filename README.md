@@ -47,3 +47,7 @@ https://stackoverflow.com/questions/32802202/how-to-center-a-flex-container-but-
 ## Custom events
 
 Examples in source code https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Element/Events.elm#L177 but are not exported
+
+## Mouse click coordinates
+
+Examples in source code but on exported https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Element/Events.elm#L115
