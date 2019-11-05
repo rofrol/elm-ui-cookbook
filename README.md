@@ -121,3 +121,12 @@ jhbrown   [12 hours ago]
 There is not.  Just px and percents.
 
 https://elmlang.slack.com #elm-ui
+
+## External css
+
+jesse  7 minutes ago
+We primarily use elm-ui and also have external Sass styling too and it’s fine
+jesse  6 minutes ago
+You may need to use https://package.elm-lang.org/packages/mdgriffith/elm-ui/latest/Element#noStaticStyleSheet
+
+https://elmlang.slack.com #news-and-links
