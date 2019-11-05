@@ -1,5 +1,9 @@
 # elm-ui-cookbook
 
+This repo aims to gather knowledge from https://elmlang.slack.com #elm-ui or elsewhere.
+
+PRs welcomed.
+
 ## Centralize Input.text contents
 
 mthiems 2:33 AM
