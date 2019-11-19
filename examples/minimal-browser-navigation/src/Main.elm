@@ -57,7 +57,8 @@ subscriptions _ =
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
-update message model =
-    case message of
+update msg model =
+    -- case Debug.log "msg" msg of
+    case msg of
         NoOp ->
             ( model, Cmd.none )
