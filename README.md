@@ -132,3 +132,22 @@ jesse  6 minutes ago
 You may need to use https://package.elm-lang.org/packages/mdgriffith/elm-ui/latest/Element#noStaticStyleSheet
 
 https://elmlang.slack.com #news-and-links
+
+## mouseOver and Font.underline
+
+Use `Border` instead:
+
+```elm
+            [ Border.color <| rgba255 255 255 255 255
+            , Border.widthEach
+                { bottom = 1
+                , left = 0
+                , top = 0
+                , right = 0
+                }
+            , mouseOver [ Border.color <| rgb255 255 0 0 ]
+            ]
+```
+
+- https://ellie-app.com/7f8nvkjCrD6a1
+- https://github.com/mdgriffith/elm-ui/issues/158
