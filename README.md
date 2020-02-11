@@ -11,6 +11,7 @@ PRs welcomed.
 - slider https://github.com/rofrol/elm-mpv-webui/blob/master/webui-page/src/Slider.elm
 - more examples https://github.com/bburdette/elm-ui-examples
 - even more examples https://github.com/objarni/elm-ui-examples
+- ellies catalog: search for "elm-ui" https://janiczek-ellies.builtwithdark.com/
 
 ## Centralize Input.text contents
 
