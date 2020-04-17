@@ -153,3 +153,7 @@ Use `Border` instead:
 
 - https://ellie-app.com/7f8nvkjCrD6a1
 - https://github.com/mdgriffith/elm-ui/issues/158
+
+## "spacing" does not respect spacing to the outer edges
+
+Spacing is the distance between contained elements. You are looking for "padding" on the container (to specify how near to the borders of the container the contained elements can be). 
